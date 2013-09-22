@@ -1,10 +1,11 @@
 # DesignPatternsPHP
 
-[![Build Status](https://travis-ci.org/domnikl/DesignPatternsPHP.png?branch=master)](https://travis-ci.org/domnikl/DesignPatternsPHP)
+[![Build Status](https://travis-ci.org/Trismegiste/DesignPatternsPHP.png?branch=master)](https://travis-ci.org/Trismegiste/DesignPatternsPHP)
 
-This is a collection of known design patterns and some sample code how to implement them in PHP. Every pattern has a small list of examples (most of them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar with this software).
-
-I think the problem with patterns is that often people do know them but don't know when to apply which.
+This fork retains only identified, standard (at least PSR-0) and fully tested patterns.
+Examples must be concrete and relevant, without too much noise, and each 
+pattern must be decoupled from each other. Therefore, from the original repo,
+only patterns I have contributed for.
 
 ## Patterns
 
@@ -16,10 +17,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Builder](Builder) [:notebook:](http://en.wikipedia.org/wiki/Builder_pattern)
 * [SimpleFactory](SimpleFactory)
 * [FactoryMethod](FactoryMethod) [:notebook:](http://en.wikipedia.org/wiki/Factory_method_pattern)
-* [StaticFactory](StaticFactory)
-* [Prototype](Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
 * [Singleton](Singleton) [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (is considered an anti-pattern! :no_entry:)
-* [Multiton](Multiton) (is considered an anti-pattern! :no_entry:)
 
 ### Structural
 
@@ -27,11 +25,8 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Composite](Composite) [:notebook:](http://en.wikipedia.org/wiki/Composite_pattern)
 * [Decorator](Decorator) [:notebook:](http://en.wikipedia.org/wiki/Decorator_pattern)
 * [Facade](Facade) [:notebook:](http://en.wikipedia.org/wiki/Facade_pattern)
-* [Proxy](Proxy) [:notebook:](http://en.wikipedia.org/wiki/Proxy_pattern)
-* [Registry](Registry) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
 * [FluentInterface](FluentInterface) [:notebook:](http://en.wikipedia.org/wiki/Fluent_interface)
 * [DataMapper](DataMapper) [:notebook:](http://en.wikipedia.org/wiki/Data_mapper_pattern)
-* [DependencyInjection](DependencyInjection) [:notebook:](http://de.wikipedia.org/wiki/Dependency_Injection)
 
 ### Behavioral
 
@@ -41,10 +36,19 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Mediator](Mediator) [:notebook:](http://en.wikipedia.org/wiki/Mediator_pattern)
 * [NullObject](NullObject) [:notebook:](http://en.wikipedia.org/wiki/Null_Object_pattern)
 * [Observer](Observer) [:notebook:](http://en.wikipedia.org/wiki/Observer_pattern)
-* [StatusPattern](StatusPattern) [:notebook:](http://en.wikipedia.org/wiki/State_pattern)
 * [Strategy](Strategy) [:notebook:](http://en.wikipedia.org/wiki/Strategy_pattern)
 * [TemplateMethod](TemplateMethod) [:notebook:](http://en.wikipedia.org/wiki/Template_method_pattern)
 * [Visitor](Visitor) [:notebook:](http://en.wikipedia.org/wiki/Visitor_pattern)
+
+### Todo
+
+* Bridge
+* Flyweight
+* Interpreter
+* Memento
+* [StatePattern](StatePattern) [:notebook:](http://en.wikipedia.org/wiki/State_pattern)
+* [Prototype](Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
+* [Proxy](Proxy) [:notebook:](http://en.wikipedia.org/wiki/Proxy_pattern)
 
 ## Contribute
 

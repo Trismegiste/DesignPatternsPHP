@@ -19,8 +19,8 @@ namespace DesignPatterns\Iterator;
  * mostly how loop statements handle collections (see Java before and after 1.5)
  * 
  * In this simple example, I try to demonstrate how I manage a "linear" iterator
- * on a card game but in fact, the underlaying storage is handled by two combined
- * arrays.
+ * on a card deck but in fact, the underlaying storage is handled by two combined
+ * arrays, therefore, low memory footprint.
  * 
  * If tomorrow you decide to read cards from a database, the client 
  * (see the PHPUnit test) will remain unchanged. That's the beauty of it.
